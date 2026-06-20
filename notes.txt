@@ -1,0 +1,23 @@
+npm install next-auth@beta
+to install nextauth
+
+npx auth secret
+to setup environment(auth secret)
+create the .env.local file and add the auth_secret to it 
+
+configuration
+create authjs config file and object
+read through the documentation, then add the providers
+go to authentication, and go to oauth seems long or stn: just go to connections, then go to github and create an oauth app
+go to connections github, and get callback url and then copy the client id when ya done, and put it in the .env.local file
+put your logo, 
+
+shadcn provides an init command, allowing you to configure and add dependencies for your project
+
+sanity
+create a new project in sanity
+then go to overview, copy the initialize your project with the cli
+use groq queries to query your db
+
+Sentry is used for tracking bugs
+When users get errors, and it is console.logged, you can just see it here, instead of asking them to send it

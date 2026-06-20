@@ -13,8 +13,6 @@ import slugify from "slugify"
 
 const md = markdownIt()
 
-export const experimental_ppr = true;
-
 const page = async ({params} : {params: Promise<{id:string}>}) => {
     const id = (await params).id;
 
